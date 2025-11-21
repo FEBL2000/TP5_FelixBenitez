@@ -1,0 +1,189 @@
+/* Fondo general oscuro y centrado */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1c1c1c;
+  font-family: Arial, sans-serif;
+}
+
+/* Contenedor tipo ficha */
+.form-container {
+  width: 100%;
+  max-width: 420px;
+  background-color: #f2f2f2;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  text-align: left;
+}
+
+/* Ícono decorativo */
+.form-icon {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-icon img {
+  width: 60px;
+  height: auto;
+}
+
+/* Título */
+h2 {
+  text-align: center;
+  color: #1c1c1c;
+  margin-bottom: 10px;
+}
+
+/* Subtítulo */
+.subtitulo {
+  text-align: center;
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Agrupación de campos */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+form input[type="text"],
+form input[type="email"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+/* Cursos como lista alineada */
+fieldset.form-group {
+  border: none;
+  margin-top: 20px;
+}
+
+fieldset legend {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.curso-lista {
+  list-style: none;
+  padding-left: 0;
+}
+
+.curso-lista li {
+  margin-bottom: 8px;
+}
+
+.curso-lista label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: normal;
+  color: #333;
+}
+
+/* Botón principal */
+.signup-btn {
+  background-color: #007acc;
+  color: white;
+  border: none;
+  padding: 12px;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.signup-btn:hover {
+  background-color: #005fa3;
+}
+
+/* Botones de navegación en columna */
+.nav-buttons {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.nav-buttons button {
+  background-color: #007acc;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  max-width: 300px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-buttons button:hover {
+  background-color: #005fa3;
+}
+
+/* Estilos para index.html */
+header {
+  background-color: #1c1c1c;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+.botones {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.botones button {
+  background-color: #007acc;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 200px;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.botones button:hover {
+  background-color: #005fa3;
+  transform: scale(1.05);
+}
+
+#mensaje-bienvenida {
+  font-size: 18px;
+  margin-top: 20px;
+  color: #333;
+  text-align: center;
+}
+
+#nombre-usuario {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #1c1c1c;
+  text-align: center;
+}

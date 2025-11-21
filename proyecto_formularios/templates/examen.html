@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Examen de Informática</title>
+  <link rel="stylesheet" href="../statics/styles.css">
+  <script defer src="../js/examen.js"></script>
+</head>
+<body>
+  <div class="form-container">
+    <!-- Icono decorativo -->
+    <div class="form-icon">
+      <img src="../statics/images/examen1.png" alt="Icono examen">
+    </div>
+
+    <h2>EXAMEN DE INFORMÁTICA</h2>
+    <form id="formExamen">
+      <!-- Pregunta 1 -->
+      <div class="form-group">
+        <label>1. ¿Cuál es el lenguaje de programación más usado?</label>
+        <ul class="curso-lista">
+          <li><label><input type="radio" name="q1" value="Python" required> Python</label></li>
+          <li><label><input type="radio" name="q1" value="Java"> Java</label></li>
+          <li><label><input type="radio" name="q1" value="C++"> C++</label></li>
+          <li><label><input type="radio" name="q1" value="Ruby"> Ruby</label></li>
+        </ul>
+      </div>
+
+      <!-- Pregunta 2 -->
+      <div class="form-group">
+        <label>2. ¿El hardware es la parte física de un computador?</label>
+        <ul class="curso-lista">
+          <li><label><input type="radio" name="q2" value="Verdadero" required> Verdadero</label></li>
+          <li><label><input type="radio" name="q2" value="Falso"> Falso</label></li>
+        </ul>
+      </div>
+
+      <!-- Pregunta 3 -->
+      <div class="form-group">
+        <label for="q3">3. ¿Qué es HTML?</label>
+        <input type="text" id="q3" name="q3" required>
+      </div>
+
+      <!-- Pregunta 4 -->
+      <div class="form-group">
+        <label>4. ¿Qué significa CPU?</label>
+        <ul class="curso-lista">
+          <li><label><input type="radio" name="q4" value="Central Process Unit" required> Central Process Unit</label></li>
+          <li><label><input type="radio" name="q4" value="Control Program Unit"> Control Program Unit</label></li>
+          <li><label><input type="radio" name="q4" value="Computer Processing Unit"> Computer Processing Unit</label></li>
+          <li><label><input type="radio" name="q4" value="Central Processing Unit"> Central Processing Unit</label></li>
+        </ul>
+      </div>
+
+      <!-- Pregunta 5 -->
+      <div class="form-group">
+        <label>5. ¿El sistema operativo es un software?</label>
+        <ul class="curso-lista">
+          <li><label><input type="radio" name="q5" value="Verdadero" required> Verdadero</label></li>
+          <li><label><input type="radio" name="q5" value="Falso"> Falso</label></li>
+        </ul>
+      </div>
+
+      <button type="submit" class="signup-btn">Enviar examen</button>
+    </form>
+
+    <!-- Botones de navegación -->
+    <div class="nav-buttons">
+      <button onclick="location.href='../index.html'">Inicio</button>
+      <button onclick="location.href='inscripcion.html'">Ir a Inscripción</button>
+    </div>
+  </div>
+</body>
+</html>
